@@ -1,0 +1,22 @@
+[project]
+name = "acta-downloads"
+version = "0.1.0"
+description = "Herramienta para descargar actas electorales de la OEP"
+readme = "README.md"
+authors = [
+    { name = "Willy Samuel Paz Colque", email = "willypaz243@gmail.com" },
+]
+requires-python = ">=3.12"
+dependencies = [
+    "aiodns>=3.5.0",
+    "aiohttp>=3.12.15",
+    "pandas>=2.3.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.1",
+    "ipywidgets>=8.1.7",
+    "pytest>=8.4.2",
+    "ruff>=0.13.1",
+]
