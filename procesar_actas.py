@@ -110,12 +110,12 @@ async def main():
 
     connector = aiohttp.TCPConnector(
         limit=100,
-        limit_per_host=50,
+        limit_per_host=10,
         ttl_dns_cache=300,
         use_dns_cache=True,
     )
 
-    timeout = aiohttp.ClientTimeout(total=30)
+    timeout = aiohttp.ClientTimeout(total=60)
 
     async with aiohttp.ClientSession(
         connector=connector,
