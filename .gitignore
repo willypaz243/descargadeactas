@@ -9,13 +9,38 @@ wheels/
 # Virtual environments
 .venv
 
-#data
+# Credenciales (NUNCA subir a git)
+credentials/*
+*.pem
+*.p12
+service_account*.json
+firebase_credentials.json
+firebase-adminsdk*.json
+rc-proyect-*.json
+.google/
+.firebase/
+# Plantilla sin valores reales: sí se versiona
+!credentials/service_account.example.json
+
+# Data descargada / generada
 actas/
 actas.zip
+structured_actas/
+subnational_actas/
+subnational_actas_2da_vuelta/
+computo_web/
+database.json
 *.csv
+*.xlsx
 
-# notebooks
+# Notebooks de análisis (experimentales, no forman parte del pipeline)
 *.ipynb
 
-# IDE
+# IDE / editores
 .vscode/
+.idea/
+.continue/
+.ropeproject/
+
+# Sistema
+.DS_Store
