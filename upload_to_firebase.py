@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Script para subir actas a Firebase Storage
-Sigue la estructura definida en llaveDeBucket.md:
+Estructura de destino en Firebase Storage:
 - mesas/{nro_acta}/{nro_acta}.jpg (para municipales)
 - mesas/departamentales/{nro_acta}.jpg (para departamentales)
 """

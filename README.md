@@ -51,8 +51,7 @@ uv run python scripts/test_firebase_connection.py  # verifica conexión y permis
 uv run python upload_to_firebase.py                # subida masiva
 ```
 
-Detalles de rutas usadas en el bucket: [docs/UPLOAD_INSTRUCTIONS.md](docs/UPLOAD_INSTRUCTIONS.md)
-y [docs/llaveDeBucket.md](docs/llaveDeBucket.md).
+Detalles de rutas usadas en el bucket: [docs/UPLOAD_INSTRUCTIONS.md](docs/UPLOAD_INSTRUCTIONS.md).
 
 ## Seguridad
 

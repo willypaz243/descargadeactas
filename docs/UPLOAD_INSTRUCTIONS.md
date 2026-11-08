@@ -176,5 +176,4 @@ Tiempo: 15.32 segundos
 
 - [Firebase Admin SDK Documentation](https://firebase.google.com/docs/admin/setup)
 - [Firebase Storage Python SDK](https://firebase.google.com/docs/storage/admin/start)
-- [Estructura definida en llaveDeBucket.md](llaveDeBucket.md)
 - [Guía de Credenciales](FIREBASE_CREDENTIALS_GUIDE.md)

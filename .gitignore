@@ -23,6 +23,7 @@ rc-proyect-*.json
 !credentials/service_account.example.json
 
 # Data descargada / generada
+docs/
 actas/
 actas.zip
 structured_actas/
